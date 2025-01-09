@@ -191,11 +191,34 @@ header {
     border-bottom: 1px solid rgba(16, 16, 16, 0.2);
     border-top: 1px solid rgba(16, 16, 16, 0.2);
 }
-.social-icon{
+
+.social-icon {
     margin-top: 20px;
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
+}
+
+.footer-info {
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footer-section-info {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+.footer-title{
+    word-wrap: break-word;
+}
+.footer-title h1 {
+    width: 80%; 
+    margin: 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    word-wrap: break-word;
 }
